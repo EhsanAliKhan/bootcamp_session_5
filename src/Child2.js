@@ -2,7 +2,6 @@ import React, { useContext, useReducer } from 'react';
 import numberReducer from './numberReducer';
 
 function Child2() {
-  let value = useContext(ValueContext);
   let [state, dispatch] = useReducer(numberReducer,0);
     
   return (
