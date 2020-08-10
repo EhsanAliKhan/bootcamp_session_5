@@ -4,8 +4,8 @@ import Child from './Child.js';
 function Parent(props) {
   return (
     <div>
-      <h2>Old Parent </h2>
-      <Child num = {props.num}></Child>
+      <h2>VslueContext Parent </h2>
+      <Child></Child>
     </div>
   );
 }
