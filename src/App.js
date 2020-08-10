@@ -4,7 +4,7 @@ import ValueContext from './ValueContext';
 import './App.css';
 
 function App() {
-  let value = 45;
+  let value = 33;
   return (
     <ValueContext.Provider value = {value}>
       <div className="App">
