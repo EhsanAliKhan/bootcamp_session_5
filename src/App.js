@@ -4,12 +4,12 @@ import ValueContext from './ValueContext';
 import './App.css';
 
 function App() {
-  let value = useState(100);
+  let value = useState(2);
   //let value = 33;
   return (
     <ValueContext.Provider value = {value}>
       <div className="App">
-        <h1>Welcome to App.JS </h1>
+        <h1>Welcome to Fruitables </h1>
         <Parent></Parent>
       </div>
     </ValueContext.Provider>
