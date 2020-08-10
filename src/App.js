@@ -9,7 +9,7 @@ function App() {
   return (
     <ValueContext.Provider value = {value}>
       <div className="App">
-        <h1>Welcome to Fruitables </h1>
+        <h1>Welcome to State and Reducer Functions </h1>
         <Parent></Parent>
       </div>
     </ValueContext.Provider>

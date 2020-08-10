@@ -4,7 +4,7 @@ import Child from './Child.js';
 function Parent() {
   return (
     <div>
-      <h2>We have fresh fruits and vegetables </h2>
+      <h2>This is Parent </h2>
       <Child></Child>
     </div>
   );
