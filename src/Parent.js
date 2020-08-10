@@ -1,6 +1,5 @@
 import React from 'react';
 import Child from './Child.js';
-import Child2 from './child2.js';
 
 function Parent() {
   return (
