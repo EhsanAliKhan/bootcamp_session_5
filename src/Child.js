@@ -7,7 +7,9 @@ function Child() {
   return (
     <div>
       <h3>Child</h3>
-      <Child num = {value}></Child>
+      Child num = {value}
+      <br/>
+      <button className="btn" onClick = {()=>{value[1](++value[0])}}>Update button</button>
     </div>
   );
 }
